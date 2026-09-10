@@ -27,42 +27,104 @@ body {
 .card {
   border-radius: 10px;
   background-color: var(--couleur-blanc);
-  display: block;
+  display: grid;
   align-items: center;
-  justify-content: center;
   padding: 30px;
-  width: 636px;
+  min-width: 700px;
   height: 1796px;
   margin: 28%;
 }
 
 .image {
   display: block;
+  margin-top: -30px;
   border-radius: 10px;
-  width: 570px;
-  height: 290px;
+  width: 600px;
+  height: 300px;
+}
+
+.card2 {
+  display: grid;
+  border-radius: 12px;
+  margin-top: -50px;
+  width: 656px;
+  height: 180px;
+  padding: 40;
+  gap: 20px;
+  background-color: var(--couleur-inbox);
+}
+
+.temps {
+  color: var(--couleur-rosefoncé);
+  margin-left: -20px;
+  font-family: var(--font-outfit);
+  font-weight: 570;
+  font-size: 20px;
 }
 
 h1 {
   font-family: var(--font-spacegrotesk);
   color: var(--couleur-titre);
   font-size: 40px;
-  height: 4rem;
-  margin-top: 30px;
+  margin-top: -10px;
+}
+
+.plat {
+  margin-top: -10%;
+  font-family: var(--font-outfit);
+  color: var(--couleur-texte);
 }
 
 h2 {
+  font-size: 30px;
+  font-weight: 500;
   color: var(--couleur-h2);
+  font-family: var(--font-outfit);
 }
 
-.preparation {
-  font-weight: bold;
+.preparation li::marker {
+  color: var(--couleur-rosefoncé);
 }
 
 .instructions {
-  color: var();
+  font-family: var(--font-outfit);
+  margin-top: -40px;
+}
+
+.instructions li::marker {
+  color: var(--couleur-h2);
+}
+
+.liste2 {
+  margin-top: -40px;
 }
 
 .ingredients {
-  font-weight: 400;
+  margin-top: -40px;
+}
+
+.liste {
+  color: var(--couleur-texte);
+  font-family: var(--font-outfit);
+  margin-top: -40px;
+  padding-left: 50px;
+  margin-bottom: 1rem;
+}
+
+.liste li::marker {
+  color: var(--couleur-h2);
+}
+
+.all {
+  color: var(--couleur-texte);
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.table {
+  font-family: var(--font-outfit);
+}
+
+.nutritional {
+  font-family: var(--font-outfit);
 }
