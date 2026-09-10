@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap&family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --couleur-titre: #312e2c;
+  --couleur-body: #f3e5d7;
+  --couleur-recette: #ffe8d1;
+  --couleur-texte: #5f564d;
+  --couleur-blanc: #ffffff;
+  --couleur-inbox: #fff7fb;
+  --couleur-rosefoncé: #7a284e;
+  --couleur-h2: #854632;
+  --font-spacegrotesk: Space Grotesk;
+  --font-outfit: "Outfit", sans-serif;
+}
+
+body {
+  background-color: var(--couleur-body);
+  margin-top: -18%;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: var(--couleur-blanc);
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  width: 636px;
+  height: 1796px;
+  margin: 28%;
+}
+
+.image {
+  display: block;
+  border-radius: 10px;
+  width: 570px;
+  height: 290px;
+}
+
+h1 {
+  font-family: var(--font-spacegrotesk);
+  color: var(--couleur-titre);
+  font-size: 40px;
+  height: 4rem;
+  margin-top: 30px;
+}
+
+h2 {
+  color: var(--couleur-h2);
+}
+
+.preparation {
+  font-weight: bold;
+}
+
+.instructions {
+  color: var();
+}
+
+.ingredients {
+  font-weight: 400;
+}
